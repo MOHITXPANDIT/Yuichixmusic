@@ -31,7 +31,6 @@ loop = asyncio.get_event_loop()
 console = Console()
 HELPABLE = {}
 
-
 async def initiate_bot():
     with console.status(
         "[magenta] Finalizing Booting...",
@@ -83,7 +82,7 @@ async def initiate_bot():
             status="[bold blue]Importation Completed!",
         )
     console.print(
-        "[bold green]Congrats!! SiestaXMusic Bot has started successfully!\n"
+        "[bold green]Congrats!! YuichiXMusic Bot has started successfully!\n"
     )
     try:
         await app.send_message(
@@ -114,8 +113,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_1.join_chat("TechZBots")
-            await ASS_CLI_1.join_chat("TechZBots_Support")
+            await ASS_CLI_1.join_chat("ABOUT_PANDIT")
+            await ASS_CLI_1.join_chat("Night_FunxD")
         except:
             pass
         console.print(f"├[red] Assistant 1 Started as {ASSNAME1}!")
@@ -133,8 +132,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_2.join_chat("TechZBots")
-            await ASS_CLI_2.join_chat("TechZBots_Support")
+            await ASS_CLI_2.join_chat("ABOUT_PANDIT")
+            await ASS_CLI_2.join_chat("Night_FunxD")
         except:
             pass
         console.print(f"├[red] Assistant 2 Started as {ASSNAME2}!")
@@ -152,8 +151,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_3.join_chat("TechZBots")
-            await ASS_CLI_3.join_chat("TechZBots_Support")
+            await ASS_CLI_3.join_chat("ABOUT_PANDIT")
+            await ASS_CLI_3.join_chat("Night_FunxD")
         except:
             pass
         console.print(f"├[red] Assistant 3 Started as {ASSNAME3}!")
@@ -171,8 +170,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_4.join_chat("TechZBots")
-            await ASS_CLI_4.join_chat("TechZBots_Support")
+            await ASS_CLI_4.join_chat("ABOUT_PANDIT")
+            await ASS_CLI_4.join_chat("Night_FunxD")
         except:
             pass
         console.print(f"├[red] Assistant 4 Started as {ASSNAME4}!")
@@ -190,8 +189,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_5.join_chat("TechZBots")
-            await ASS_CLI_5.join_chat("TechZBots_Support")
+            await ASS_CLI_5.join_chat("ABOUT_PANDIT")
+            await ASS_CLI_5.join_chat("Night_FunxD")
         except:
             pass
         console.print(f"├[red] Assistant 5 Started as {ASSNAME5}!")
@@ -209,11 +208,11 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await LOG_CLIENT.join_chat("TechZBots")
-            await LOG_CLIENT.join_chat("TechZBots_Support")
+            await LOG_CLIENT.join_chat("ABOUT_PANDIT")
+            await LOG_CLIENT.join_chat("Night_FunxD")
         except:
             pass
-    console.print(f"└[red] Yukki Music Bot Boot Completed.")
+    console.print(f"└[red] YuichiXMusic Bot Boot Completed.")
     if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":
